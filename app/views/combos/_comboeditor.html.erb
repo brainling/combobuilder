@@ -1,0 +1,41 @@
+<div class="hide" data-bind="css: { hide: !browserSupported() }">
+  <label for="inputScheme">Input Scheme</label>
+  <select id="inputScheme" data-bind="options: inputSchemes, optionsText: 'title', value: selectedInputScheme"></select>
+  <label for="comboText">Combo (text)</label>
+  <input id="comboText" type="text" data-bind="value: comboText, valueUpdate: 'afterkeydown'"/>
+
+  <div class="well combo-well">
+    <div>
+      <input type="text" data-bind="value: comboLink" readonly="true" />
+    </div>
+    <div data-bind="html: combo"></div>
+  </div>
+  <div class="alert alert-error hide" data-bind="html: errorMessage, css: { hide: !hasError() }"></div>
+</div>
+
+<% content_for :scripts do %>
+    <%= javascript_include_tag 'combobuilder' %>
+    <script type="text/javascript">
+        <% cache do %>
+        <% moves = Dir.glob('app/assets/images/moves/*.png') %>
+        window.comboAssets = {
+            <% moves.each do |m| %>
+            <% file = File.basename(m, '.*') %>
+            '<%= file %>': '<%= image_tag 'moves/' + file + '.png' %>',
+            <% end %>
+        };
+        <% end %>
+
+        <% cache do %>
+        (function (root) {
+            <% input_schemes.each do |key, value| %>
+            <%= render :partial => 'inputscheme', :formats => [:js], :locals => { :name => key, :scheme => value } %>
+            <% end %>
+        }(window));
+        <% end %>
+
+        $(function () {
+            ko.applyBindings(new ComboBuilderViewModel());
+        });
+    </script>
+<% end %>

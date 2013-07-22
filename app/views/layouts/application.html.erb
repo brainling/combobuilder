@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Combobuilder</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="center-content">
+  <%= yield %>
+</div>
+
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+<script type="text/javascript">
+  if(supportsEcma5()) {
+      $('head').append("<script type='text/javascript' src='/assets/harmony.js?body=1'>");
+  }
+</script>
+<%= yield :scripts %>
+
+</body>
+</html>

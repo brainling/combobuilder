@@ -1,0 +1,19 @@
+@import 'bootstrap';
+
+.center-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.combo-well {
+  min-height: 32px;
+}
+
+.combo-part {
+  padding-right: 15px;
+
+  h4 {
+    display: inline-block;
+  }
+}
