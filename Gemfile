@@ -13,6 +13,7 @@ gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 
 # Use TypeScript as our script engine
+gem 'typescript-src', git: 'git://github.com/brainling/typescript-src-ruby.git'
 gem 'typescript-rails', git: 'git://github.com/brainling/typescript-rails.git'
 
 # Use CoffeeScript for .js.coffee assets and views

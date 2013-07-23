@@ -61,7 +61,6 @@
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.14, ruby-2.0.0-p195) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="turbolinks (v1.3.0, ruby-2.0.0-p195) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="typescript-node (v0.0.5, ruby-2.0.0-p195) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="typescript-src (v0.9.0, ruby-2.0.0-p195) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.37, ruby-2.0.0-p195) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.1.2, ruby-2.0.0-p195) [gem]" level="application" />
   </component>

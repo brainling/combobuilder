@@ -2,41 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/testref2.js.ts" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\lib\assets\javascripts\typescript.js.erb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\lib\typescript-rails.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\lib\typescript\rails\engine.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\lib\typescript\rails\railtie.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\lib\typescript\rails\template_handler.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\lib\typescript\rails\version.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\test\assets_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\test\support\site\index.js.ts" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\test\support\site\ref1_1.js.ts" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\test\support\site\ref1_2.js.ts" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\test\support\site\ref2_1.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\test\support\site\ref2_2.js.ts" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\test\template_handler_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\test\test_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\typescript-rails.gemspec" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wbundle.ps1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Matt.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Matt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/combobuilder.iml" afterPath="$PROJECT_DIR$/.idea/combobuilder.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/test.js.ts" afterPath="$PROJECT_DIR$/app/assets/javascripts/test.js.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Code\combobuilder\vendor\typescript-rails\test\support\routes.rb" afterPath="$PROJECT_DIR$/app/assets/javascripts/testref.js.ts" />
     </list>
     <ignored path="combobuilder.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/combobuilder.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374396891157" ignored="false" />
     <file path="/parser.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374367554090" ignored="false" />
-    <file path="/Gemfile" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374553294866" ignored="false" />
+    <file path="/Gemfile" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374558540562" ignored="false" />
     <file path="/routes.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374383818853" ignored="false" />
     <file path="/application.css.scss" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374382205316" ignored="false" />
     <file path="/application.js" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374377262742" ignored="false" />
@@ -59,7 +35,7 @@
     <file path="/test.js.ts" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374550364388" ignored="false" />
     <file path="/Ruby Console" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374555897213" ignored="false" />
     <file path="/index.html.erb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374475905196" ignored="false" />
-    <file path="/Dummy.txt" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374555948989" ignored="false" />
+    <file path="/Dummy.txt" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374557662945" ignored="false" />
     <file path="/application.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374478668367" ignored="false" />
     <file path="/testcoffee.js.coffee" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374477382729" ignored="false" />
     <file path="/testref.js.ts" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374550316732" ignored="false" />
@@ -99,10 +75,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="26" selection-start="206" selection-end="206" vertical-scroll-proportion="0.22972973">
+            <state line="31" column="24" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wbundle.ps1" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wbundle.ps1">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.11486486">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.ru" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.ru">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,24 +106,6 @@
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="67" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tempfile.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://D:/Ruby200/lib/ruby/2.0.0/tempfile.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="0" selection-start="5295" selection-end="5295" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tmpdir.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://D:/Ruby200/lib/ruby/2.0.0/tmpdir.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="0" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/combos/_comboeditor.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/combos_controller.rb" />
         <option value="$PROJECT_DIR$/lib/combobuilder/decoder.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/combobuilder.js" />
@@ -205,9 +180,10 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/test.js.ts" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/testref2.js.ts" />
         <option value="$PROJECT_DIR$/vendor/typescript-rails/lib/typescript/rails/template_handler.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="D:/Ruby200/lib/ruby/gems/2.0.0/bundler/gems/typescript-rails-eb4519bde6a2/lib/typescript/rails/railtie.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/wbundle.ps1" />
       </list>
     </option>
   </component>
@@ -281,20 +257,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="combobuilder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; ruby-2.0.0-p195 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -395,11 +357,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="environments" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -414,6 +372,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -775,28 +737,32 @@
       <created>1374485073166</created>
       <updated>1374485073166</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Removed the vendor local version of typescript-rails. Now using one pulled from my github fork with all patches applied&#10;&#10;Added some TypeScript test files">
+      <created>1374556696434</created>
+      <updated>1374556696434</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25026682" sideWeight="0.6710098" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25026682" sideWeight="0.6710098" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984799" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -844,7 +810,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Workspace update&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed the vendor local version of typescript-rails. Now using one pulled from my github fork with all patches applied&#10;&#10;Added some TypeScript test files" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -861,6 +827,7 @@
     <MESSAGE value="Updates to make TypeScript work" />
     <MESSAGE value="Added local copy of typescript-rails gem, so we can tweak it" />
     <MESSAGE value="Workspace update&#10;" />
+    <MESSAGE value="Removed the vendor local version of typescript-rails. Now using one pulled from my github fork with all patches applied&#10;&#10;Added some TypeScript test files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -875,21 +842,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/knockout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://D:/Ruby200/lib/ruby/gems/2.0.0/gems/sprockets-2.10.0/lib/sprockets/context.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="28" selection-start="4996" selection-end="4996" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/combobuilder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" />
@@ -970,9 +922,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="206" selection-end="206" vertical-scroll-proportion="0.22972973">
+        <state line="31" column="24" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wbundle.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.11486486">
           <folding />
         </state>
       </provider>
