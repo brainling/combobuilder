@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="601f1159-165d-4c60-a757-5167aedc7a26" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/combobuilder/parser.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wbundle.ps1" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/Matt.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/combobuilder.iml" afterPath="$PROJECT_DIR$/.idea/combobuilder.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/combos/_comboeditor.html.erb" afterPath="$PROJECT_DIR$/app/views/combos/_comboeditor.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/combobuilder/input.rb" afterPath="$PROJECT_DIR$/lib/combobuilder/input.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="combobuilder.iws" />
@@ -49,7 +49,7 @@
       <file leaf-file-name="parser.rb" pinned="true" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/combobuilder/parser.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="9" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.7605225">
+            <state line="58" column="34" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.28156748">
               <folding />
             </state>
           </provider>
@@ -76,7 +76,7 @@
       <file leaf-file-name="input.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/combobuilder/input.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="17" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
+            <state line="27" column="17" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -233,6 +233,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -518,7 +519,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/combobuilder/input.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="17" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
+        <state line="27" column="17" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -539,7 +540,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/combobuilder/parser.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="9" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.7605225">
+        <state line="58" column="34" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.28156748">
           <folding />
         </state>
       </provider>

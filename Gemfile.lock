@@ -1,11 +1,17 @@
 GIT
   remote: git://github.com/brainling/typescript-rails.git
-  revision: 02adab7dcd9c80c545094a153b3bede753d246c3
+  revision: 9059fe35086f4352d3658638bcf82c84cc99c1f3
   specs:
     typescript-rails (0.1.3)
       railties
       tilt (~> 1.3)
       typescript-node (~> 0.0)
+
+GIT
+  remote: git://github.com/brainling/typescript-src-ruby.git
+  revision: 23da68233ca397dea3e742234c61b1602e8cba42
+  specs:
+    typescript-src (0.9.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -114,7 +120,6 @@ GEM
       coffee-rails
     typescript-node (0.0.5)
       typescript-src (~> 0.8)
-    typescript-src (0.9.0)
     tzinfo (0.3.37)
     uglifier (2.1.2)
       execjs (>= 0.3.0)
@@ -134,4 +139,5 @@ DEPENDENCIES
   sqlite3
   turbolinks
   typescript-rails!
+  typescript-src!
   uglifier (>= 1.3.0)

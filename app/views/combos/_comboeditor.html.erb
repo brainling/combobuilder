@@ -6,7 +6,7 @@
 
   <div class="well combo-well">
     <div>
-      <input type="text" data-bind="value: comboLink" readonly="true" />
+      <input type="text" data-bind="value: comboLink" readonly="true"/>
     </div>
     <div data-bind="html: combo"></div>
   </div>
@@ -26,13 +26,13 @@
         };
         <% end %>
 
-        <% cache do %>
         (function (root) {
             <% input_schemes.each do |key, value| %>
-            <%= render :partial => 'inputscheme', :formats => [:js], :locals => { :name => key, :scheme => value } %>
+                <% cache value.cache_key do %>
+                <%= render :partial => 'inputscheme', :formats => [:js], :locals => { :name => key, :scheme => value } %>
+                <% end %>
             <% end %>
         }(window));
-        <% end %>
 
         $(function () {
             ko.applyBindings(new ComboBuilderViewModel());
