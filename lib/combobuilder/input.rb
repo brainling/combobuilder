@@ -28,6 +28,10 @@ module ComboBuilder
       @encoding_map = {}
     end
 
+    def cache_key
+      self.class.name + 'Cache'
+    end
+
     def to_js
       ret = "function() {\n"
 
