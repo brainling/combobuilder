@@ -1,3 +1,0 @@
-class TestRefClass2 {
-
-}
