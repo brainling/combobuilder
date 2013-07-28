@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wbundle.ps1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/combobuilder.iml" afterPath="$PROJECT_DIR$/.idea/combobuilder.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="combobuilder.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/combobuilder.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374396891157" ignored="false" />
     <file path="/parser.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374367554090" ignored="false" />
-    <file path="/Gemfile" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374558540562" ignored="false" />
+    <file path="/Gemfile" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374639987098" ignored="false" />
     <file path="/routes.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374383818853" ignored="false" />
     <file path="/application.css.scss" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374382205316" ignored="false" />
     <file path="/application.js" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374377262742" ignored="false" />
-    <file path="/application.html.erb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374377976185" ignored="false" />
+    <file path="/application.html.erb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1375038553305" ignored="false" />
     <file path="/decoder.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374400587429" ignored="false" />
     <file path="/new.html.erb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374385024656" ignored="false" />
     <file path="/combobuiilder.js" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374377905481" ignored="false" />
@@ -35,18 +32,32 @@
     <file path="/test.js.ts" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374550364388" ignored="false" />
     <file path="/Ruby Console" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374555897213" ignored="false" />
     <file path="/index.html.erb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374475905196" ignored="false" />
-    <file path="/Dummy.txt" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374557662945" ignored="false" />
+    <file path="/Dummy.txt" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1375038511267" ignored="false" />
     <file path="/application.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374478668367" ignored="false" />
     <file path="/testcoffee.js.coffee" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374477382729" ignored="false" />
     <file path="/testref.js.ts" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374550316732" ignored="false" />
-    <file path="/template_handler.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374551960378" ignored="false" />
+    <file path="/template_handler.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374649351181" ignored="false" />
     <file path="/testref2.js.ts" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374550376549" ignored="false" />
     <file path="$PROJECT_DIR$/../typescript-rails/.gitignore" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374554069586" ignored="false" />
     <file path="/.gitignore" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374554068426" ignored="false" />
-    <file path="$PROJECT_DIR$/../typescript-rails/lib/typescript/rails/template_handler.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374554082662" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-rails/lib/typescript/rails/template_handler.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374649354019" ignored="false" />
     <file path="$PROJECT_DIR$/../typescript-rails/lib/typescript/rails/railtie.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374556359211" ignored="false" />
     <file path="/railtie.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374554187379" ignored="false" />
     <file path="$PROJECT_DIR$/../typescript-rails/lib/typescript/rails/version.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374556359211" ignored="false" />
+    <file path="/knockout.d.ts" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374562779054" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-rails/Gemfile" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374650857647" ignored="false" />
+    <file path="/wbundle.ps1" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374640163123" ignored="false" />
+    <file path="/ref1_2.js.ts" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374644822573" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-rails/test/support/site/ref1_2.js.ts" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374645133453" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-rails/test/support/site/ref2_1.d.ts" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374650172561" ignored="false" />
+    <file path="/ref2_1.d.ts" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374650171874" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-rails/test/support/site/ref2_2.js.ts" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374645133453" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-rails/test/support/site/index.js.ts" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374649938040" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-rails/test/support/site/ref1_1.js.ts" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374645133453" ignored="false" />
+    <file path="$PROJECT_DIR$/../typescript-rails/test/template_handler_test.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374650785791" ignored="false" />
+    <file path="/template_handler_test.rb" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374650756032" ignored="false" />
+    <file path="/index.js.ts" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1374648848642" ignored="false" />
+    <file path="/a.dummy" changelist="64c04f44-62fc-465b-8e5a-e4e5ee8c464b" time="1375038515872" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +80,16 @@
       <file leaf-file-name="typescript-node.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://D:/Ruby200/lib/ruby/gems/2.0.0/gems/typescript-node-0.0.5/lib/typescript-node.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="21" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
+            <state line="14" column="20" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="76" selection-start="321" selection-end="321" vertical-scroll-proportion="0.38908452">
               <folding />
             </state>
           </provider>
@@ -84,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wbundle.ps1" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="wbundle.ps1" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wbundle.ps1">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.11486486">
+            <state line="4" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -168,8 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/combos_controller.rb" />
-        <option value="$PROJECT_DIR$/lib/combobuilder/decoder.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/combobuilder.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
@@ -184,6 +202,8 @@
         <option value="D:/Ruby200/lib/ruby/gems/2.0.0/bundler/gems/typescript-rails-eb4519bde6a2/lib/typescript/rails/railtie.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/wbundle.ps1" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/types/knockout.d.ts" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -245,7 +265,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -397,45 +416,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="combobuilder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="combobuilder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="fileColors" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../typescript-rails" />
     <property name="FullScreen" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\combobuilder\app\assets\javascripts\types" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\combobuilder\app\assets\images\moves" />
     </key>
@@ -741,28 +742,32 @@
       <created>1374556696434</created>
       <updated>1374556696434</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated to use my forked typescript-src that is at 0.9.0.1&#10;Added a small windows wrapper for bundle to work around an annoying&#10;Ruby 2.0 + sqlite3 bug.">
+      <created>1374560212416</created>
+      <updated>1374560212416</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25026682" sideWeight="0.6710098" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25827107" sideWeight="0.67172265" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984799" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32827735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -810,7 +815,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed the vendor local version of typescript-rails. Now using one pulled from my github fork with all patches applied&#10;&#10;Added some TypeScript test files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to use my forked typescript-src that is at 0.9.0.1&#10;Added a small windows wrapper for bundle to work around an annoying&#10;Ruby 2.0 + sqlite3 bug." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -828,6 +833,7 @@
     <MESSAGE value="Added local copy of typescript-rails gem, so we can tweak it" />
     <MESSAGE value="Workspace update&#10;" />
     <MESSAGE value="Removed the vendor local version of typescript-rails. Now using one pulled from my github fork with all patches applied&#10;&#10;Added some TypeScript test files" />
+    <MESSAGE value="Updated to use my forked typescript-src that is at 0.9.0.1&#10;Added a small windows wrapper for bundle to work around an annoying&#10;Ruby 2.0 + sqlite3 bug." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -854,16 +860,12 @@
     </entry>
     <entry file="file://D:/Ruby200/lib/ruby/2.0.0/tmpdir.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="0" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="84" column="0" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://D:/Ruby200/lib/ruby/2.0.0/tempfile.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="0" selection-start="5295" selection-end="5295" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="135" column="0" selection-start="5295" selection-end="5295" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
@@ -875,16 +877,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/testref2.js.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Ruby200/lib/ruby/gems/2.0.0/gems/typescript-node-0.0.5/lib/typescript-node.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/test.js.ts">
@@ -910,9 +903,7 @@
     </entry>
     <entry file="file://D:/Ruby200/lib/ruby/gems/2.0.0/bundler/gems/typescript-rails-eb4519bde6a2/lib/typescript/rails/railtie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="3" selection-start="394" selection-end="394" vertical-scroll-proportion="0.40202704">
-          <folding />
-        </state>
+        <state line="14" column="3" selection-start="394" selection-end="394" vertical-scroll-proportion="0.40202704" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
@@ -929,6 +920,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wbundle.ps1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="24" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0">
@@ -936,9 +934,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wbundle.ps1">
+    <entry file="file://D:/Ruby200/lib/ruby/gems/2.0.0/gems/typescript-node-0.0.5/lib/typescript-node.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.11486486">
+        <state line="14" column="20" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="76" selection-start="321" selection-end="321" vertical-scroll-proportion="0.38908452">
           <folding />
         </state>
       </provider>

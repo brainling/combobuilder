@@ -14,7 +14,7 @@
 <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 <script type="text/javascript">
   if(supportsEcma5()) {
-      $('head').append("<script type='text/javascript' src='/assets/harmony.js?body=1'>");
+      $('head').append("<script type='text/javascript' src='<%= javascript_url('harmony') %>'>");
   }
 </script>
 <%= yield :scripts %>
