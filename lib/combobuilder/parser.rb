@@ -31,7 +31,7 @@ module ComboBuilder
   end
 
   module Parser
-    def parse(input_scheme, text)
+    def self.parse(input_scheme, text)
       ctx = Parser::Context.new(input_scheme, text)
       parts = text.split(' ')
       nodes = []
@@ -71,30 +71,30 @@ module ComboBuilder
       end
     end
 
-    def parse_modifier_part(ctx, part)
+    def self.parse_modifier_part(ctx, part)
       parts = part.split('.')
       modifier = parts[0]
       sequence = parts[1]
 
-      if !ctx.input_scheme.modifiers.contains modifier
+      if ctx.input_scheme.modifiers.index(modifier).nil?
         return ErrorNode.new("Unknown modifier: #{modifier}")
       end
 
       node = SequenceNode.new
-      node.modifier = modifier``
-      return parse_sequence(sequence, ctx.button_list, node)
+      node.modifier = modifier
+      parse_sequence(sequence, ctx.button_list, node)
     end
 
-    def parse_any_part(ctx, part)
+    def self.parse_any_part(ctx, part)
       parse_sequence(part, ctx.any_list, SequenceNode.new)
     end
 
-    def parse_sequence(part, list, node)
+    def self.parse_sequence(part, list, node)
       loop do
         found = false
 
         list.each do |btn|
-          if part.starts_with?(btn)
+          if part.start_with?(btn)
             found = true
             part = part.slice(btn.length, part.length - btn.length)
             node.parts << btn

@@ -1,3 +1,4 @@
 require 'combobuilder/utils'
 require 'combobuilder/input'
 require 'combobuilder/decoder'
+require 'combobuilder/parser'
