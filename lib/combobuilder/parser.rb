@@ -65,12 +65,12 @@ module ComboBuilder
       private
 
       def build_button_list
-        @input_scheme.buttons.sort {|a, b| a.length <=> b.length }
+        @input_scheme.buttons.sort.reverse
       end
 
       def build_any_list
         any = @input_scheme.buttons.concat(@input_scheme.motions)
-        any.sort {|a, b| a.length <=> b.length }
+        any.sort.reverse
       end
     end
 
