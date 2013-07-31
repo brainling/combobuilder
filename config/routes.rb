@@ -1,4 +1,5 @@
 Combobuilder::Application.routes.draw do
+  resources :parsed_combos, :only => [ :show ]
   resources :combos, :only => [ :show, :new, :edit ]
   root 'home#index'
   # The priority is based upon order of creation: first created -> highest priority.

@@ -158,28 +158,14 @@
             }, this), 500);
         }
         else {
-            var nodes = this.comboParser.parse(text, this.selectedInputScheme());
-            var errors = _.select(nodes, function(node) {
-                return node.type === 'error';
-            });
-
-            if(errors.length > 0) {
-                var msg = '';
-                errors.forEach(function(error) {
-                    msg += error.message + '</br>';
+            console.log(text);
+            $.getJSON('/parsed_combos/marvel$' + text, function(data) {
+                console.log(data);
+                console.log(data.length);
+                this.processing = false;
+            }).fail(function(err, status) {
+                   console.log('Error: ' + status);
                 });
-
-                this.setErrorMessage(msg);
-            }
-            else {
-                this.setErrorMessage(null);
-                this.displayCombo(nodes);
-
-                var encodedCombo = serializeCombo(nodes, this.selectedInputScheme());
-                this.comboLink('http://localhost/combos/' + encodedCombo);
-            }
-
-            this.processing = false;
         }
     };
 
