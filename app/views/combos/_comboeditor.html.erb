@@ -1,18 +1,35 @@
 <div class="hide" data-bind="css: { hide: !browserSupported() }">
-  <label for="inputScheme">Input Scheme</label>
-  <select id="inputScheme"
-        data-bind="options: inputSchemes, optionsText: 'title', value: selectedInputScheme">
-  </select>
-  <label for="comboText">Combo (text)</label>
-  <input id="comboText" type="text" data-bind="value: comboText, valueUpdate: 'afterkeydown'"/>
+  <form class="form-horizontal">
+    <div class="control-group">
+      <label class="control-label" for="inputScheme">Input Scheme</label>
 
-  <div class="well combo-well">
-    <div>
-      <input type="text" data-bind="value: comboLink" readonly="true"/>
+      <div class="controls">
+        <select id="inputScheme"
+                data-bind="options: inputSchemes, optionsText: 'title', value: selectedInputScheme">
+        </select>
+      </div>
     </div>
-    <div data-bind="html: combo"></div>
-  </div>
-  <div class="alert alert-error hide" data-bind="html: errorMessage, css: { hide: !hasError() }"></div>
+    <div class="control-group">
+      <label class="control-label" for="comboText">Combo Input</label>
+
+      <div class="controls">
+        <input id="comboText" type="text" data-bind="value: comboText, valueUpdate: 'afterkeydown'"/>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <label class="control-label">Combo</label>
+      <div class="controls">
+        <div class="well combo-well">
+          <div>
+            <input id="comboLink" type="text" data-bind="value: comboLink" readonly="true" />
+          </div>
+          <div data-bind="html: combo"></div>
+        </div>
+        <div class="alert alert-error hide" data-bind="html: errorMessage, css: { hide: !hasError() }"></div>
+      </div>
+    </div>
+  </form>
 </div>
 
 <% content_for :scripts do %>

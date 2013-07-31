@@ -3,15 +3,13 @@
 /// <reference path="types/knockout.d.ts" />
 /// <reference path="types/combobuilder.d.ts" />
 
-var comboBuilder: any;
-
-function supportsEcma5() {
+function supportsEcma5(): boolean {
     return Object.create !== null && Object.create !== undefined;
 }
 
 class ComboBuilderViewModel {
     constructor() {
-        this.inputSchemes = comboBuilder.inputSchemes
+        this.inputSchemes = comboBuilder.inputSchemes;
         this.selectedInputScheme(this.inputSchemes[0]);
 
         this.hasError = ko.computed(() => {
@@ -47,8 +45,9 @@ class ComboBuilderViewModel {
         }
         else {
             try {
-                var param = (this.selectedInputScheme().name + '$' + text).replace(/\./, '!').replace(/\s/, '@');
-                $.get('/parsed_combos/' + param, (data: string) => {
+                var param = (this.selectedInputScheme().name + '$' + text).replace(/\./g, '!').replace(/\s/g, '@');
+                this.comboLink(comboBuilder.parsedComboUrl + param);
+                $.get(this.comboLink() + '?no_layout=1', (data: string) => {
                         this.combo(data);
                         this.processing = false;
                     })
@@ -74,6 +73,7 @@ class ComboBuilderViewModel {
     updateCombo(val: string): void {
         if(val === null || val.length === 0) {
             this.combo('');
+            this.comboLink('');
             return;
         }
 

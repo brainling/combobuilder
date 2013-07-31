@@ -1,3 +1,12 @@
+<% unless @no_layout %>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Combobuilder</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+</head>
+<body>
+<% end %>
 <% if !@errors.empty? %>
 <div class="alert alert-error">
   <ul>
@@ -17,4 +26,8 @@
     <% end %>
 </span>
     <% end %>
+<% end %>
+
+<% unless @no_layout %>
+</body>
 <% end %>

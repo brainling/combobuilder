@@ -3,6 +3,7 @@ require 'combobuilder'
 class ParsedCombosController < ApplicationController
   def show
     info = params[:id]
+    @no_layout = !params[:no_layout].nil?
     if info =~ /(.*)\$(.*)/
       @scheme = ComboBuilder.input_schemes[$~.captures[0]]
       if @scheme.nil?
@@ -17,7 +18,7 @@ class ParsedCombosController < ApplicationController
 
     @errors = @nodes.select { |n| n.type == :error }
     respond_to do |format|
-      format.html { render layout: false }
+      format.html { render layout: false  }
       format.json { render :json => @nodes }
     end
   end
