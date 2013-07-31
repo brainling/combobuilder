@@ -1,14 +1,24 @@
-class ParsedCombosController < ApplicationController
-  respond_to :json, :html
+require 'combobuilder'
 
+class ParsedCombosController < ApplicationController
   def show
-    combo = params[:id]
-    m = /.*\$(.*)/.match(combo)
-    if m.nil?
-      @nodes = ComboBuilder::ErrorNode.new('Invalid combo string')
+    info = params[:id]
+    if info =~ /(.*)\$(.*)/
+      @scheme = ComboBuilder.input_schemes[$~.captures[0]]
+      if @scheme.nil?
+        @nodes = [ComboBuilder::ErrorNode.new('Unknown input scheme')]
+      else
+        combo = $~.captures[1].gsub(/[!|@]/) { |c| (c == '!' ? '.' : ' ') }
+        @nodes = ComboBuilder::Parser.parse(@scheme, combo)
+      end
     else
-      @scheme = ComboBuilder::MarvelInputScheme.new
-      @nodes = ComboBuilder::Parser.parse(@scheme, m.captures[0])
+      @nodes = [ComboBuilder::ErrorNode.new('Invalid combo string')]
+    end
+
+    @errors = @nodes.select { |n| n.type == :error }
+    respond_to do |format|
+      format.html { render layout: false }
+      format.json { render :json => @nodes }
     end
   end
 end

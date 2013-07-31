@@ -116,7 +116,8 @@ module ComboBuilder
       }
       schemes.each do |s|
         c = const_get(s)
-        @input_schemes[c.name.split(/::/).last] = c.new
+        scheme = c.new
+        @input_schemes[scheme.name] = scheme
       end
     end
 

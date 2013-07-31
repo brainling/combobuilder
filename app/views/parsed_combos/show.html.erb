@@ -1,0 +1,20 @@
+<% if !@errors.empty? %>
+<div class="alert alert-error">
+  <ul>
+        <% @errors.each do |error| %>
+    <%= raw(error.message) %>
+        <% end %>
+  </ul>
+</div>
+<% else %>
+    <% @nodes.each do |node| %>
+<span class="combo-part">
+    <% if node.has_modifier? %>
+    <%= raw(display_part(@scheme, node.modifier)) %>
+    <% end %>
+    <% node.parts.each do |part| %>
+    <%= raw(display_part(@scheme, part)) %>
+    <% end %>
+</span>
+    <% end %>
+<% end %>

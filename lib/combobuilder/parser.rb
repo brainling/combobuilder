@@ -33,10 +33,13 @@ module ComboBuilder
   module Parser
     def self.parse(input_scheme, text)
       ctx = Parser::Context.new(input_scheme, text)
+
       parts = text.split(' ')
+      parts = %w( text ) unless parts.length > 0
+
       nodes = []
       parts.each do |part|
-        if part =~ /.*\..*/
+        if part =~ /.*\..+/
           nodes << parse_modifier_part(ctx, part)
         else
           nodes << parse_any_part(ctx, part)
@@ -93,18 +96,20 @@ module ComboBuilder
       loop do
         found = false
 
-        list.each do |btn|
-          if part.start_with?(btn)
-            found = true
-            part = part.slice(btn.length, part.length - btn.length)
-            node.parts << btn
+        unless part.nil?
+          list.each do |btn|
+            if part.start_with?(btn)
+              found = true
+              part = part.slice(btn.length, part.length - btn.length)
+              node.parts << btn
+            end
           end
         end
 
         break if !found || part.length == 0
       end
 
-      if part.length > 0
+      if part.nil? || part.length > 0
         return ErrorNode.new("Unknown input in sequence: #{part}")
       end
 

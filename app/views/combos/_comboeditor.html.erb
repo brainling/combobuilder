@@ -1,6 +1,8 @@
 <div class="hide" data-bind="css: { hide: !browserSupported() }">
   <label for="inputScheme">Input Scheme</label>
-  <select id="inputScheme" data-bind="options: inputSchemes, optionsText: 'title', value: selectedInputScheme"></select>
+  <select id="inputScheme"
+        data-bind="options: inputSchemes, optionsText: 'title', value: selectedInputScheme">
+  </select>
   <label for="comboText">Combo (text)</label>
   <input id="comboText" type="text" data-bind="value: comboText, valueUpdate: 'afterkeydown'"/>
 
@@ -14,7 +16,7 @@
 </div>
 
 <% content_for :scripts do %>
-    <%= javascript_include_tag 'combobuilder' %>
+    <script type="text/javascript" src="<%= asset_path('combobuilder.ts') %>"></script>
     <script type="text/javascript">
         <% cache do %>
         <% moves = Dir.glob('app/assets/images/moves/*.png') %>
@@ -26,13 +28,15 @@
         };
         <% end %>
 
-        (function (root) {
+        window.comboBuilder = window.comboBuilder || {};
+        window.comboBuilder.inputSchemes = [
             <% input_schemes.each do |key, value| %>
-                <% cache value.cache_key do %>
-                <%= render :partial => 'inputscheme', :formats => [:js], :locals => { :name => key, :scheme => value } %>
-                <% end %>
+            { name: '<%= key %>', title: '<%= value.title %>' },
             <% end %>
-        }(window));
+        ];
+
+        window.comboBuilder.parsedComboUrl = '<%= (parsed_combo_url(:id => '$'))[0..-2] %>';
+        window.comboBuilder.comboUrl = '<%= (combo_url(:id => '$'))[0..-2] %>';
 
         $(function () {
             ko.applyBindings(new ComboBuilderViewModel());
