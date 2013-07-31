@@ -16,7 +16,7 @@
 </div>
 
 <% content_for :scripts do %>
-    <script type="text/javascript" src="<%= asset_path('combobuilder.ts') %>"></script>
+    <%= javascript_include_tag('combobuilder') %>
     <script type="text/javascript">
         <% cache do %>
         <% moves = Dir.glob('app/assets/images/moves/*.png') %>
