@@ -35,16 +35,6 @@
 <% content_for :scripts do %>
     <%= javascript_include_tag('combobuilder') %>
     <script type="text/javascript">
-        <% cache do %>
-        <% moves = Dir.glob('app/assets/images/moves/*.png') %>
-        window.comboAssets = {
-            <% moves.each do |m| %>
-            <% file = File.basename(m, '.*') %>
-            '<%= file %>': '<%= image_tag 'moves/' + file + '.png' %>',
-            <% end %>
-        };
-        <% end %>
-
         window.comboBuilder = window.comboBuilder || {};
         window.comboBuilder.inputSchemes = [
             <% input_schemes.each do |key, value| %>

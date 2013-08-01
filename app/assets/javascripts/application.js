@@ -16,3 +16,4 @@
 //= require bootstrap
 //= require underscore
 //= require knockout
+//= require util

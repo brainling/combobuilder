@@ -10,3 +10,4 @@ interface ComboBuilderModule {
 }
 
 declare var comboBuilder: ComboBuilderModule;
+declare function supportsEcma5(): boolean;

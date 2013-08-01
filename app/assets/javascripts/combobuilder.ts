@@ -3,10 +3,6 @@
 /// <reference path="types/knockout.d.ts" />
 /// <reference path="types/combobuilder.d.ts" />
 
-function supportsEcma5(): boolean {
-    return Object.create !== null && Object.create !== undefined;
-}
-
 class ComboBuilderViewModel {
     constructor() {
         this.inputSchemes = comboBuilder.inputSchemes;
@@ -37,7 +33,12 @@ class ComboBuilderViewModel {
     }
 
     processCombo(text: string): void {
-        if(text != this.comboText()) {
+        if(text === null || text.length === 0) {
+            this.processing = false;
+            return;
+        }
+        
+        if(text !== this.comboText()) {
             var currentVal = this.comboText();
             setTimeout(() => {
                 this.processCombo(currentVal);
